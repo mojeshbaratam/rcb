@@ -42,6 +42,7 @@ public class AdministratorDao implements Administrator
             sql.printStackTrace();
         }
             return "ERROR";
+            
 	}
     @Override
 	public Object removeShip(String shipId) 
