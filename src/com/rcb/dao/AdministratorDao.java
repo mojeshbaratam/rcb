@@ -34,8 +34,7 @@ public class AdministratorDao implements Administrator
             return str="SUCCESS";
         }
         
-        }
-        catch(Exception sql)
+        }catch(Exception sql)
         {
             str="FAIL";
             System.out.println(str); 
